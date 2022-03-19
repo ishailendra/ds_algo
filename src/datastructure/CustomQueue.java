@@ -1,12 +1,12 @@
-package problem.leetcode;
+package datastructure;
 
 import java.util.Stack;
-//232
-public class ImplementQueueUsingStacks {
+
+public class CustomQueue {
     Stack<Integer> stack1;
     Stack<Integer> stack2;
 
-    public ImplementQueueUsingStacks() {
+    public CustomQueue() {
         stack1 = new Stack();
         stack2 = new Stack();
     }
@@ -46,7 +46,7 @@ public class ImplementQueueUsingStacks {
 
 
     public static void main(String[] args) {
-        ImplementQueueUsingStacks queue = new ImplementQueueUsingStacks();
+        CustomQueue queue = new CustomQueue();
         queue.push(1);
         queue.push(2);
         queue.push(3);
